@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 20;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.head {
+  background-color: aqua;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Wrapper for the menu and content */
+.wrapper {
+  display: flex;
+  flex-wrap: wrap; /* Gör det responsivt */
+}
+
+/* Menyn tar upp 30% av bredden */
+.Menu {
+  background-color: gold;
+  width: 30%;
+  padding: 20px;
+}
+
+/* Innehållet tar upp 70% av bredden */
+.content {
+  background-color: rgba(0, 0, 255, 0.309);
+  width: 70%;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Footer under båda flex-elementen */
+.footer {
+  background-color: aqua;
+  color: black;
+  text-align: center;
+  padding: 20px;
+  width: 100%;
+}
