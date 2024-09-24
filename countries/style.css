@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+}
+.head {
+  background-color: aqua;
+  text-align: center;
+  padding: 20px;
+}
+.Menu {
+  background-color: gold;
+  float: left;
+  height: 400px;
+  width: 30%;
+  padding: 20px;
+}
+.countent {
+  background-color: rgba(0, 0, 255, 0.309);
+  float: left;
+  width: 70%;
+  text-align: center;
+  height: 400px;
+}
+
+.footer {
+  clear: both;
+  background-color: aqua;
+  color: black;
+  text-align: center;
+  padding: 20px;
+  width: 100%;
+  float: left;
+}
